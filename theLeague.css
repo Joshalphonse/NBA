@@ -2,111 +2,123 @@ body {
     background-image: url("../images/maroon-paper-texture.jpg");
 }
 
-#dates {
-   display: flex;
-    align-items: stretch;
-    /* Default */
-    justify-content: space-between;
-  
-    padding: 30px;
-    margin: 40px;
-    font-size: 70px;
-    position:relative; 
-    left:20px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.datelist {
-    
-      display: block;
-    flex: 0 1 auto;
-    /* Default */
-    list-style-type: none;
-}
-
-#dateDiv{
-    position:relative;
-    top:-90px;
-}
 #schedule {
-    font-size: 110px
-}
-
-#logo {
-    display: flex;
-    align-items: stretch;
-    /* Default */
-    justify-content: space-between;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.logoList {
-    display: block;
-    flex: 0 1 auto;
-    /* Default */
-    list-style-type: none;
+    font-size: 45px;
+    text-align: center;
+    color: #FFB81C;
 }
 
 .logoSize {
-    width: 200px;
-    height: 200px;
-    padding: 30px;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
     margin: 40px;
+    position: relative;
+    top: -50px;
 }
 
-#schedule {
-    text-align: center;
-}
-
-#team {
-    display: flex;
-    align-items: stretch;
-    /* Default */
-    justify-content: space-between;
-    width: 90%;
-    
-}
-
-.teamList {
-    display: block;
-    flex: 0 1 auto;
-    /* Default */
-    list-style-type: none;
-}
-
-#times {
-    display: flex;
-    align-items: stretch;
-    /* Default */
-    justify-content: space-between;
-    width: 90%;
-    
-}
-
-.timeList {
-    display: block;
-    flex: 0 1 auto;
-    /* Default */
-    list-style-type: none;
-}
-
-
-
-
-#vs {
-    display: flex;
-    align-items: stretch;
-    /* Default */
-    justify-content: space-between;
-    width: 90%;
-    margin: 30px;
-    padding: 20px;
-}
-
-.vsList {
-    display: block;
-    flex: 0 1 auto;
-    /* Default */
-    list-style-type: none;
+@media screen and (min-width: 767px) {
+    #logo {
+        display: flex;
+        align-items: center;
+        /* Default */
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align:
+    }
+    #allContent {
+        position: relative;
+        top: 70px;
+    }
+    #containerDiv {
+        position: relative;
+        top: -20px;
+    }
+    #dates {
+        display: flex;
+        align-items: center;
+        /* Default */
+        justify-content: space-between;
+        text-align: center;
+        padding: 30px;
+        margin: 90px 40px;
+        font-size: 45px;
+        position: relative;
+        left: 20px;
+    }
+    #dateDiv {
+        position: relative;
+        top: -90px;
+    }
+    #eastern {
+        position: absolute;
+        bottom: -50px;
+        right: 40px;
+        font-size: 18px;
+        color: #FFB81C;
+    }
+    #schedule {
+        font-size: 110px;
+        color: #FFB81C;
+    }
+    #logo {
+        display: flex;
+        align-items: center;
+        /* Default */
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align:
+    }
+    .logoList {
+        display: block;
+        flex: 0 1 auto;
+        /* Default */
+        list-style-type: none;
+        align-items: center;
+    }
+    .logoSize {
+        width: 200px;
+        height: 200px;
+        padding: 40px;
+        margin: 40px;
+        position: relative;
+        top: -50px;
+    }
+    #schedule {
+        text-align: center;
+    }
+    #team {
+        text-align: center;
+        position: relative;
+        top: -80px;
+        font-size: 45px;
+        color:#FFB81C;
+    }
+    #times {
+        text-align: center;
+        position: relative;
+        top: -60px;
+        color: white;
+    }
+    #vs {
+        text-align: center;
+        position: relative;
+        top: -100px;
+        color: white;
+    }
+    #yeer {
+        text-align: center;
+        position: relative;
+        top: 10px;
+        color: white;
+    }
 }
