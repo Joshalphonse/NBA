@@ -7,21 +7,26 @@ body {
     align-items: stretch;
     /* Default */
     justify-content: space-between;
-     width: 200px;
-    height: 200px;
-    padding: 0 30px;
-    margin: 0px 30px 40px;
-    font-size: 30px;
+  
+    padding: 30px;
+    margin: 40px;
+    font-size: 70px;
+    position:relative; 
+    left:20px;
 }
 
 .datelist {
     
+      display: block;
+    flex: 0 1 auto;
     /* Default */
     list-style-type: none;
-    justify-content: center;
 }
 
-
+#dateDiv{
+    position:relative;
+    top:-90px;
+}
 #schedule {
     font-size: 110px
 }
