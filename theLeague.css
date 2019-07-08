@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/maroon-paper-texture.jpg");
+    background-image: url("maroon-paper-texture.jpg");
 }
 
 * {
@@ -13,22 +13,62 @@ body {
   src: url(Sans.ttf);
 }
 
-#schedule {
-    font-size: 45px;
+  #eastern {
+        position: absolute;
+        bottom: -300px;
+        right: 70px;
+        font-size: 18px;
+        color: #FFB81C;
+    }
+
+
+    #schedule {
+    font-size: 50px;
     text-align: center;
     color: #FFB81C;
+    margin: 0 auto;
 }
 
 .logoSize {
-    width: 100px;
-    height: 100px;
-    padding: 40px;
-    margin: 40px;
-    position: relative;
-    top: -50px;
+    margin: 100 auto;
+    left: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    
 }
 
-@media screen and (min-width: 767px) {
+
+#times {
+        text-align:right;
+        position:relative;
+        top: -180px;
+        color: #FFB81C;
+    }
+
+
+#vs {
+        text-align: center;
+        position: relative;
+        top: -100px;
+        color: white;
+    }
+#yeer {
+        text-align: center;
+        position: relative;
+        top: 10px;
+        color: white;
+    }
+
+
+
+
+@media screen and (min-width: 415px) {
+    * {
+    margin: 0px;
+    padding: 0px;
+    font-family:myFirstFont;
+}
     #logo {
         display: flex;
         align-items: center;
