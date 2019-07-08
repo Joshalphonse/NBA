@@ -5,6 +5,12 @@ body {
 * {
     margin: 0px;
     padding: 0px;
+    font-family:myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Sans.ttf);
 }
 
 #schedule {
@@ -59,8 +65,8 @@ body {
     }
     #eastern {
         position: absolute;
-        bottom: -50px;
-        right: 40px;
+        bottom: -5px;
+        right: 70px;
         font-size: 18px;
         color: #FFB81C;
     }
@@ -95,6 +101,7 @@ body {
     }
     #schedule {
         text-align: center;
+        font-size: 130px;
     }
     #team {
         text-align: center;
