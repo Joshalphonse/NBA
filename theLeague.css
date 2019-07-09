@@ -1,9 +1,10 @@
 body {
   background-image: url("maroon-paper-texture.jpg");
+  overflow-y: hidden;
 }
 
 * {
-  margin: 0px;
+  margin: 0px 2%;
   padding: 0px;
   font-family: myFirstFont;
 }
@@ -37,12 +38,20 @@ body {
   position: relative;
   top: -50px;
 }
-
+.logoList {
+  list-style-type: none;
+}
 #times {
   text-align: right;
   position: relative;
   top: -180px;
   color: #ffb81c;
+}
+
+#team {
+  position: relative;
+  text-align: right;
+  display: none;
 }
 
 #vs {
