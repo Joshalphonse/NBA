@@ -15,6 +15,13 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   * {
     margin: 0px 10px;
     padding: 0px;
@@ -23,8 +30,8 @@ body {
 
   #allContent {
     position: relative;
-    top: 20px;
-    zoom: 35%;
+    top: 60px;
+    zoom: 30%;
   }
 
   #eastern {
@@ -36,7 +43,7 @@ body {
   }
 
   #schedule {
-    font-size: 120px;
+    font-size: 150px;
     text-align: center;
     color: #ffb81c;
     margin: 0 auto;
@@ -75,7 +82,7 @@ body {
   }
 
   #vs {
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     position: relative;
     top: -150px;
@@ -108,7 +115,7 @@ body {
   }
   #allContent {
     position: relative;
-    top: 40px;
+    top: 30px;
   }
   #containerDiv {
     position: relative;
@@ -174,7 +181,7 @@ body {
     text-align: center;
     position: relative;
     top: -80px;
-    font-size: 60px;
+    font-size: 55px;
     color: #ffb81c;
   }
   #times {
@@ -189,11 +196,13 @@ body {
     position: relative;
     top: -100px;
     color: white;
+    font-size: 50px;
   }
   #yeer {
     text-align: center;
     position: relative;
     top: 10px;
     color: white;
+    font-size: 50px;
   }
 }
