@@ -31,7 +31,7 @@ body {
   #allContent {
     position: relative;
     top: 60px;
-    zoom: 30%;
+    zoom: 20%;
   }
 
   #eastern {
@@ -43,7 +43,7 @@ body {
   }
 
   #schedule {
-    font-size: 150px;
+    font-size: 220px;
     text-align: center;
     color: #ffb81c;
     margin: 0 auto;
@@ -73,6 +73,7 @@ body {
     position: relative;
     top: -230px;
     color: #ffb81c;
+    font-size: 80px;
   }
 
   #team {
@@ -93,7 +94,7 @@ body {
     position: relative;
     bottom: -200px;
     color: white;
-    font-size: 50px;
+    font-size: 80px;
   }
 }
 
